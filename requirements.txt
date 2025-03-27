@@ -4,3 +4,4 @@ yfinance
 fredapi
 plotly
 gunicorn
+dash_bootstrap_components
