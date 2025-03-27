@@ -272,7 +272,7 @@ def render_tabs_content(selected_tab):
                 # Carousel for Introduction Slides
                 dbc.Carousel(
                     items=[
-                        {"key": f"slide-{i}", "src": f"/assets/slide ({i}).png", "img_style": {"width": "100%", "height": "auto"}} # Make sure the path is correct.
+                        {"key": f"slide-{i}", "src": f"StockDashboard/assets/slide ({i}).png", "img_style": {"width": "100%", "height": "auto"}} # Make sure the path is correct.
                         for i in range(7)
                     ],
                     controls=True,
