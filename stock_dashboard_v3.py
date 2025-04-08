@@ -6,9 +6,8 @@ import plotly.graph_objs as go
 import pandas as pd
 from fredapi import Fred
 from dash.exceptions import PreventUpdate
-import ssl
 import datetime
-ssl._create_default_https_context = ssl._create_unverified_context
+
 
 # Enhanced news function with sample data fallbacks
 def get_stock_news(ticker_symbol):
